@@ -1,0 +1,1 @@
+﻿powershell -ExecutionPolicy Bypass -File "C:\Users\Tales\Desktop\script2.ps1"
