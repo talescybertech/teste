@@ -1,1 +1,2 @@
-﻿powershell -ExecutionPolicy Bypass -File ".\keys.ps1"
+#Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+powershell -ExecutionPolicy Bypass -File ".\keys.ps1"
